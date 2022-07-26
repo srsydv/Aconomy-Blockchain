@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aconomy</title>
+  </head>
+  <body>
+    
+   
+    <div id="createItem">
+      <p1>Account1 = 0xF7D3bdf086d66E548c945CA410BB80Fc00E49831 </p1>
+      <p2>Account2 = 0x29d14148f9fd7F8EA48c1F81E494c9Bf859CB074 </p2>
+      <p3>Account3 = 0x4c676085933233E3b875De927D7E05212C20c800 </p3>
+      <br>
+      <p4>ERC20 Token = 0x08268C6A177Cd529DEAB226829C739C93f463994 </p4>
+      <h4>Mint NFT</h4>
+        <input type="text" id="ownerAddress" required="" placeholder="Enter owner Address">
+      <input type="text" id="uri" required="" placeholder="Enter URI">
+      <input type="text" id="royaltyReciever" required="" placeholder="royalty Reciever Address">
+      <input type="text" id="royaltyValue" required="" placeholder="Enter royalty Value">
+  
+        <button id="btnCreateItem">Mint NFT</button>
+        <span id="11">TokenId </span>
+        <span id="process1"> </span>
+    </div>
+    <br>
+    -----------------------------------------------------------
+
+        <div>
+      <div id="Approve">
+          <h4>Approve</h4>
+          
+          <input type="text" id="erc20token" required="" placeholder="ERC20 Address">
+        <input type="text" id="tokenamount1" required="" placeholder="Enter Amount">
+    
+          <button id="btnApprove">Approve</button>
+          <span id="123"></span>
+          <span id="process2"> </span>
+      </div>
+
+    <!-- <div id="createErc20">
+        <h4>Mint ERC20 Tokens</h4>
+        <input
+        type="text"
+        id="ownerAddressERC20"
+        required
+        placeholder="Enter owner Address"
+      />
+      <input
+        type="number"
+        id="tokenAmount"
+        required
+        placeholder="Enter Amount"
+      />
+  
+        <button id="btnCreateERC20">Mint ERC20</button>
+    </div> -->
+
+    <div id="getERC20">
+        <h4>Energize with ERC20</h4>
+        <input type="number" id="getTokenId" required="" placeholder="Enter token Id">
+      <input type="text" id="ERC20Address" required="" placeholder="ERC20 Address">
+        <input type="text" id="getTokenAmount" required="" placeholder="Enter token amount">
+  
+        <button id="btnGetToken">Energize</button>
+        <span id="1234"></span>
+          
+    </div>
+    <br>
+---------------------------------------------------------------------------------
+    <div id="getERC20">
+        <h4>Release ERC20 from NFT</h4>
+        <input type="text" id="receverAddressofERC20" required="" placeholder="Enter sender Address">
+        <input type="number" id="TokenIdofNFT" required="" placeholder="Enter token Id">
+      <input type="text" id="Erc20address1" required="" placeholder="ERC20 Address">
+        <input type="number" id="sendTokenAmount" required="" placeholder="Enter token amount">
+  
+        <button id="btnSendToken">Release ERC20 tokens</button>
+        <span id="process3"> </span>
+    </div>
+
+<br>
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+<br>
+    <div id="balanceAccount">
+        <h4>Balance of TokenId</h4>
+        <input type="text" id="tid" required="" placeholder="TokenId">
+        <input type="text" id="enterAddress" required="" placeholder="Enter ERC20 Address">
+  
+        <button id="btnAccountBalance">Balance</button>
+        <span id="process4"> </span>
+<br>
+------------------------------------------------------------------------------------
+<div id="ApproveNFT">
+  <h4>Approve Your NFT for MarketPlace</h4>
+  
+<input type="text" id="tokenIdofNFT" required="" placeholder="TokenId">
+
+  <button id="btnApproveforNFT">Approve</button>
+</div>
+
+-----------------------------------------------------------
+
+<div id="sellNFT">
+  <h4>Sell Your NFT for MarketPlace</h4>
+  
+<input type="text" id="tokenIdNFT" required="" placeholder="TokenId">
+
+<input type="text" id="priceValue" required="" placeholder="Price Value">
+
+  <button id="btnSellNFT">Sell NFT</button>
+</div>
+
+-----------------------------------------------------------
+
+<div id="buyNFT">
+  <h4>Buy Your NFT for MarketPlace</h4>
+  
+<input type="text" id="saleId" required="" placeholder="saleId">
+
+<input type="text" id="valueofNFT" required="" placeholder="Price Value">
+
+  <button id="btnBuyNFT">Buy NFT</button>
+</div>
+
+---------------------------------------------------------------------------------
+<div id="ownerofNFT">
+  <h4>owner of NFT</h4>
+
+
+  <button id="ownerNFT">owner Of NFT</button>
+</div>
+---------------------------------------------------------------------------------
+
+<div id="CancelTheSale">
+  <h4>Cancel Sale</h4>
+  
+<input type="text" id="CancelSale" required="" placeholder="saleId">
+
+  <button id="btnCancelSale">Cancel Sale</button>
+</div>
+
+---------------------------------------------------------------------------------
+
+<div>
+  <div id="ApproveTokenId">
+      <h4>Approve TokenId</h4>
+      
+    <input type="text" id="tokenidforapprove" required="" placeholder="Enter tokenId">
+
+      <button id="btnApprovefortokenId">Approve</button>
+      <span id="123"></span>
+      <span id="process2"> </span>
+  </div>
+
+  <div>
+    <div id="SellNFTByBid">
+        <h4>Sell NFT By Bid</h4>
+        
+      <input type="text" id="tokenidforbidsell" required="" placeholder="Enter tokenId">
+      <input type="text" id="priceforbidsell" required="" placeholder="Price">
+      <input type="text" id="bidtime" required="" placeholder="Bid Time">
+  
+        <button id="btnSellNFTByBid">Sell NFT By Bid</button>
+        <span id="123"></span>
+        <span id="process2"> </span>
+    </div>
+
+    ------------------------------------------------------------------------------------
+    <div>
+      <div id="bid">
+          <h4>Bidding</h4>
+          
+        <input type="text" id="BidsaleId" required="" placeholder="saleId">
+        <input type="text" id="Bidvalue" required="" placeholder="Value">
+    
+          <button id="btnforBid">Bid</button>
+      </div>
+      ------------------------------------------------------------------------------------
+    <div>
+      <div id="executeBidOrder">
+          <h4>Execute Bid Order</h4>
+          
+        <input type="text" id="saleIdforececution" required="" placeholder="saleId">
+        <input type="text" id="bidOrderID" required="" placeholder="bid OrderID">
+    
+          <button id="btnexecuteBid">Execute Bid</button>
+      </div>
+      ------------------------------------------------------------------------------------
+      <div>
+        <div id="withdrawBidMoney">
+            <h4>Withdraw Bid Money</h4>
+            
+          <input type="text" id="saleIdforWithdraw" required="" placeholder="saleId">
+          <input type="text" id="bidOrderIDforWithdraw" required="" placeholder="bid OrderID">
+      
+            <button id="btnWithdraw">Withdraw</button>
+        </div>
+    <!-- <button id="l">LandingPool</button> -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js" defer=""></script>
+        <script src="/index.63aff760.js" defer=""></script>
+
+  </div></div></div></div></div></div></div></body>
+</html>
