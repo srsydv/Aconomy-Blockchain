@@ -1,2 +1,2 @@
 # Aconomy-web3
-https://aconomy-ten.vercel.app/
+https://aconomy-web3.vercel.app/
