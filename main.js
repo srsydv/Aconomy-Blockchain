@@ -1,6 +1,8 @@
 const Web3 = require("web3");
-const piNFT = '0x70471257eA04F9E3262458374e046B0504d687f6'
-const piMarket = '0x2BC997DaF93625A574463Ae9fCbdEB400fbFe3A7'
+const piNFT = '0x4689ea1F8b7e433fE64959CB94b444f8E1580FC7'
+const piMarket = '0xbb351E564f95aC64942521B2e586554F8EB4BA64'
+// const piNFT = '0x70471257eA04F9E3262458374e046B0504d687f6'
+// const piMarket = '0x2BC997DaF93625A574463Ae9fCbdEB400fbFe3A7'
 const piNFTabi = require('./piNFTabi.json');
 const piMarketAbi = require('./piMarketAbi.json');
 const MTK = '0x08268C6A177Cd529DEAB226829C739C93f463994'
@@ -25,7 +27,6 @@ init = async () => {
     piMarketAbi,
     piMarket
   );
-  console.log("aaaa", piNFTmethods);
   accounts = await web3.eth.getAccounts();
   console.log("Account", accounts[0]);
 };
